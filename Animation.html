@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation</title>
+    <style>
+        body{
+            background-image: url(https://tse3.mm.bing.net/th?id=OIP.vW2jcEMUXLhCRHavQ6NMHAHaE8&pid=Api&P=0); 
+            margin: 300px 700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    div{
+        height: 150px;
+        width: 150px;
+        background-color:cyan;
+        animation-name:anime;
+        animation-duration:1.5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+        border: 4px dashed red;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+     @keyframes anime{
+    from{
+       transform: scale(1,1);
+        filter: hue-rotate(10deg);
+        }
+    to{
+        transform: scale(2,2);
+        filter: hue-rotate(360deg);
+        
+    }
+}   
+/* @keyframes anime{
+    from{
+       transform: translateX(100px);
+        filter: hue-rotate(10deg);
+        }
+    to{
+        transform: translateX(300px);
+        filter: hue-rotate(360deg);
+        
+    }
+} */
+    </style> 
+    
+
+</head>
+<body>
+        <div><h2>SHIVAM</h2>
+    </div>
+</body>
+</html>
