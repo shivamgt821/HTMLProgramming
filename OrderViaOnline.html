@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment form 2</title>
+    <style>
+        body
+        {
+            margin-left: 550px;
+            background-color: black;
+        }
+        div
+        {
+            width: 327px;
+            padding: 5px 10px;
+            background-color: rgb(126, 221, 54);
+            border: 15px solid white;
+            
+        }
+        .a
+        {
+            width: 300px;
+            border: 2px solid rgb(100, 16, 225);
+            background-color: rgba(197, 207, 211, 0.547);
+            margin: 3px;
+            border-radius: 7px;
+        }
+        .c
+        {
+            padding-left :50px;
+        }
+        .b
+        {
+            padding-left: 45px;
+        }
+        .d
+        {
+            padding-left: 37px;
+        }
+        #a
+        {
+            height: 100px;  
+        }
+        button
+        {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 8px 125px 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+        <h3>Step 1: Your details</h3>
+        <div class="a">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td class="c"><input type="text" placeholder="first and last name"></td>
+            </tr>
+           </table>
+        </div>
+        <div class="a">
+            <table>
+            <tr>
+                <td>Email</td>
+                <td class="c"><input type="Email" placeholder="example@gmail.com"></td>
+            </tr>
+        </table>
+        </div>
+        <div class="a">
+            <table>
+            <tr>
+                <td>Phone</td>
+                <td class="c"><input type="number" placeholder="+91 xxxxxxxxxx"></td>
+            </tr>
+        </table>
+        </div>
+        <h3>Step 2: Delivery address</h3>
+        <div class="a">
+            <table>
+            <tr>
+                <td>Address</td>
+                <td class="d"><input id="a" type="text"></td>
+            </tr>
+        </table>
+        </div>
+        <div class="a">
+            <table>
+            <tr>
+                <td >P.Code</td>
+                <td class="b"><input type="number"></td>
+            </tr>
+        </table>
+        </div>
+        <div class="a">
+            <table>
+            <tr>
+                <td>Country</td>
+                <td class="d"><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+    <h3>Step 3: Card details</h3>
+    <div class="a">
+        <table>
+            <tr>
+                <td>Card Type</td>
+                <tr>
+                    <td><input type="radio" value="Visa" name="Card Type">VISA</td>
+                    <td><input type="radio" value="AmEx" name="Card Type">AmEx</td>
+                    <td><input type="radio" value="Mastercard" name="Card Type">Mastercard</td>
+                </tr>
+            </tr>
+        </table>
+    </div>
+    <div class="a">
+        <table>
+            <tr>
+                <td>Card number</td>
+                <td><input type="Number"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="a">
+        <table>
+            <tr>
+                <td>Security code</td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="a">
+        <table>
+            <tr>
+                <td>Name of card</td>
+                <td><input type="text" placeholder="Enterr name of the card"></td>
+            </tr>
+        </table>
+    </div>
+    <button>BUY IT!</button>
+    </div>
+</form>
+    
+</body>
+</html>
