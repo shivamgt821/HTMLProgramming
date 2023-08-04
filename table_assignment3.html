@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TABLE TAG 3</title>
+	<style>
+		table 
+		{
+			border: 2px solid black;
+			background-color: white;
+			width: 80%;
+			margin-top: 150px;
+		}
+		th
+		{
+			border: 2px solid red;
+			padding: 20px;
+		}
+		td
+		{
+			border: 2px solid green;
+			padding: 20px;
+		}
+		body 
+		{
+			background-color: cyan;
+		}
+	</style>
+</head>
+<body>
+		<table align="center">
+			<tr>
+				<th>Level l</th>
+				<th>Level 2</th>
+				<th>Level 3</th>
+				<th>Info</th>
+				<th>Name</th>
+			</tr>
+
+			<tr>
+				<td rowspan="6">System</td>
+				<td rowspan="4">System Apps</td>
+				<td rowspan="3">System Env</td>
+				<td>App Test</td>
+				<td>foo</td>
+			</tr>
+
+			<tr>
+				<td>App Memory</td>
+				<td>foo</td>
+			</tr>
+
+			<tr>
+				<td>App Test</td>
+				<td>bar</td>
+			</tr>
+
+			<tr>
+				<td>System Env 2</td>
+				<td>App Test</td>
+				<td>bar</td>
+			</tr>
+
+			<tr>
+				<td rowspan="2">System Memory</td>
+				<td rowspan="2">Memory Test</td>
+				<td>Memory Func</td>
+				<td>foo</td>
+			</tr>
+
+			<tr>
+				<td>Apes Test</td>
+				<td>foo</td>
+			</tr>
+		</table>
+</body>
+</html>
