@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scale</title>
+	<style> 
+		#a
+		{
+			background: linear-gradient(45deg,blueviolet,magenta);
+			width: 150px;
+			height: 150px;
+			margin: 150px 400px;
+			animation: anime;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+		#a:hover{
+			background: linear-gradient(180deg blueviolet white magenta);
+			transform: scale(0.5,0.5);
+		}
+		@keyframes anime{
+			from {
+				transform: scale(0.5,0.5);
+				filter: hue-rotate(10deg);
+			}
+			to {
+				transform: scale(3,3);
+				filter: hue-rotate(360deg);
+			}
+		}
+		#b
+		{
+		background: linear-gradient(45deg,blueviolet,magenta);
+			width: 150px;
+			height: 150px;
+			margin: 100px 900px;
+			animation: anime;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+		#b:hover{
+			background: linear-gradient(180deg blueviolet white magenta);
+			transform: scale(0.5,0.5);
+		}
+		@keyframes anime{
+			from {
+				transform: scale(0.5,0.5);
+				filter: hue-rotate(10deg);
+			}
+			to {
+				transform: scale(3,3);
+				filter: hue-rotate(360deg);
+			}
+		}
+	</style>
+</head>
+<body style="background-color: cyan;">
+			<div id="a"></div>
+			<div id="b"></div>
+</body>
+</html>
