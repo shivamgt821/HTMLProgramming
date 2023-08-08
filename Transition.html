@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TRANSITION</title>
+    <style>
+        body
+            {
+                background-color: white;
+                margin: 310px 600px;
+            }
+
+        div {
+                width: 150px;
+                height: 150px;
+                background-color: rgb(55, 255, 0);
+                transition-duration: 2s;
+                transition-delay: 2s;
+                transition-property: height width;
+                transition-timing-function: linear;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                border: 4px solid red;
+                border-radius: 30px;
+        }
+        div:hover{
+            transform: scale(3,3);
+            background-color: rgb(242, 0, 255);
+        }
+        </style>
+</head>
+<body>
+   <h2><div>SHIVAM</div></h2> 
+</body>
+</html>
